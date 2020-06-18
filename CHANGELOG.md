@@ -1,3 +1,5 @@
+## [1.0.6] - Some more bug fixes.
+
 ## [1.0.5] - Some more bug fixes.
 
 ## [1.0.4] - Some more bug fixes.

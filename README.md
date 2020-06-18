@@ -6,7 +6,7 @@ Flutter weather icon library based on [erikflowers/weather-icons](https://erikfl
 
 ```dart
   Icon(
-    WeatherIcon.getIcon('wi_owm_day_200'),
+    WeatherIcon.getIcon('wi-owm-day-200'),
     color: Colors.white,
     size: 35.0,
   );

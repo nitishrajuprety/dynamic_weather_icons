@@ -1,6 +1,8 @@
 
 class WeatherGlyph {
 
+  WeatherGlyph._();
+
   static const Map<String, int> _glyphs = {
     'wi-day-sunny': 0xf00d,
     'wi-day-cloudy': 0xf002,
@@ -597,7 +599,7 @@ class WeatherGlyph {
   static int getIconGlyph(String _glyph) {
 
     if(!_glyphs.containsKey(_glyph)) {
-      throw 'Invalid code: $_glyph}';
+      throw 'Invalid code: $_glyph';
     }
 
     return _glyphs[_glyph];

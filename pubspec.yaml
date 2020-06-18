@@ -1,8 +1,8 @@
 name: dynamic_weather_icons
 description: Flutter weather icon library based on  erikflowers/weather-icons with ability to call icons dynamically.
-version: 0.0.1
-author:
-homepage:
+version: 1.0.1
+author: Nitish Raj Uprety
+homepage: https://github.com/nitishrajuprety/dynamic_weather_icons
 
 environment:
   sdk: ">=2.7.0 <3.0.0"

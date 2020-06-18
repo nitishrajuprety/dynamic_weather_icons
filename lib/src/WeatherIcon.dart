@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'WeatherGlyph.dart';
+import 'package:dynamic_weather_icons/dynamic_weather_icons.dart';
 
 class WeatherIcon {
 

@@ -594,8 +594,8 @@ class WeatherGlyph {
     'wi-wmo4680-99': 0xf056
   };
 
-  static int getIconGlyph(_glyph) {
-    return _glyphs[_glyph] ?? null;
+  static int getIconGlyph(String _glyph) {
+    return _glyphs[_glyph] ?? 0xf07b;
   }
 
 }

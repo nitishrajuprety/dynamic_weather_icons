@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 
 class WeatherIcon {
 
-  static IconData getIcon(int code) {
+  static IconData getIcon(String code) {
     return IconData(
-      code,
+      WeatherGlyph.getIconGlyph(code),
       fontFamily: 'WeatherIcons',
     );
   }

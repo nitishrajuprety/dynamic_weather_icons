@@ -1,7 +1,7 @@
 
 class WeatherGlyph {
 
-  static const Map<String, dynamic> _glyphs = {
+  static const Map<String, int> _glyphs = {
     'wi_day_sunny': 0xf00d,
     'wi_day_cloudy': 0xf002,
     'wi_day_cloudy_gusts': 0xf000,
@@ -594,7 +594,7 @@ class WeatherGlyph {
     'wi-wmo4680-99': 0xf056
   };
 
-  static String getIconGlyph(_glyph) {
+  static int getIconGlyph(_glyph) {
     return _glyphs[_glyph] ?? null;
   }
 

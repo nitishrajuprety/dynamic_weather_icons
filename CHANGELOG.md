@@ -1,3 +1,5 @@
+## [1.1.0] - Code structure changes.
+
 ## [1.0.7] - Some more bug fixes.
 
 ## [1.0.6] - Some more bug fixes.

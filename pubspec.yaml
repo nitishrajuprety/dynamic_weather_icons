@@ -1,6 +1,6 @@
 name: dynamic_weather_icons
 description: Flutter weather icon library based on  erikflowers/weather-icons with ability to call icons dynamically.
-version: 1.1.1
+version: 1.1.2
 homepage: https://github.com/nitishrajuprety/dynamic_weather_icons
 
 environment:
@@ -47,11 +47,12 @@ flutter:
   #       - asset: fonts/TrajanPro.ttf
   #       - asset: fonts/TrajanPro_Bold.ttf
   #         weight: 700
+
+  fonts:
+    - family: WeatherIcons
+      fonts:
+        - asset: assets/fonts/WeatherIcons.ttf
+
   #
   # For details regarding fonts in packages, see
   # https://flutter.dev/custom-fonts/#from-packages
-
-fonts:
-  - family: WeatherIcons
-    fonts:
-      - asset: assets/fonts/WeatherIcons.ttf

@@ -1,3 +1,5 @@
+## [1.1.4] - General cleanup and optimizations.
+
 ## [1.1.3] - Bug Fixes.
 
 ## [1.1.2] - Bug Fixes.
